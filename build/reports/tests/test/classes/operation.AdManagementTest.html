@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class operation.AdManagementTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class operation.AdManagementTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/operation.html">operation</a> &gt; AdManagementTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.894s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGetAd2</td>
+<td class="success">0.894s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>10:41:07.235 [Test worker] DEBUG util.AppSetting - 유저 인증 정보 초기화
+10:41:07.790 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+10:41:07.790 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+10:41:07.790 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://api.naver.com:443][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:41:07.805 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}-&gt;https://api.naver.com:443][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+10:41:07.805 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://api.naver.com:443
+10:41:07.821 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.naver.com/210.89.172.27:443
+10:41:07.821 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.naver.com/210.89.172.27:443 with timeout 2000
+10:41:07.852 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2]
+10:41:07.852 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+10:41:07.852 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.api.naver.com, O=NAVER Corp., L=Seongnam-si, ST=Gyeonggi-do, C=KR
+10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.api.naver.com, api.naver.com]
+10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+10:41:07.959 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.184.79.162:62058&lt;-&gt;210.89.172.27:443
+10:41:07.959 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 2000
+10:41:07.959 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /ncc/ads/nad-a001-02-000000137500566 HTTP/1.1
+10:41:07.959 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+10:41:07.959 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; GET /ncc/ads/nad-a001-02-000000137500566 HTTP/1.1
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; X-Timestamp: 1623202867335
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; X-API-KEY: 0100000000b2d3d0aeca17715016943fdf868637dafaa6fe9d14ef36df7c51f9183304d698
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; X-Customer: 2248092
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; X-Signature: FaGWJuBZV9zPF9Edkt/jwThVHsYTsfw96Uqe7yorpi8=
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; user-agent: unirest-java/3.1.00
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; accept-encoding: gzip
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Host: api.naver.com
+10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Connection: Keep-Alive
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;GET /ncc/ads/nad-a001-02-000000137500566 HTTP/1.1[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;X-Timestamp: 1623202867335[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;X-API-KEY: 0100000000b2d3d0aeca17715016943fdf868637dafaa6fe9d14ef36df7c51f9183304d698[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;X-Customer: 2248092[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;X-Signature: FaGWJuBZV9zPF9Edkt/jwThVHsYTsfw96Uqe7yorpi8=[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;user-agent: unirest-java/3.1.00[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;accept-encoding: gzip[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Host: api.naver.com[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Connection: close[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Cache-Control: no-store, must-revalidate[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Keep-Alive: timeout=60[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;X-Transaction-ID: BPTPN2NIHHJGV[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json;charset=UTF-8[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Date: Wed, 09 Jun 2021 01:41:07 GMT[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Strict-Transport-Security: max-age=15768000[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;{&quot;nccAdId&quot;:&quot;nad-a001-02-000000137500566&quot;,&quot;nccAdgroupId&quot;:&quot;grp-a001-02-000000021722250&quot;,&quot;customerId&quot;:2248092,&quot;inspectStatus&quot;:&quot;UNDER_REVIEW&quot;,&quot;type&quot;:&quot;CATALOG_AD&quot;,&quot;ad&quot;:{&quot;catalogType&quot;:&quot;MAKER&quot;},&quot;adAttr&quot;:{&quot;bidAmt&quot;:90,&quot;useGroupBidAmt&quot;:false},&quot;userLock&quot;:false,&quot;enable&quot;:true,&quot;referenceKey&quot;:&quot;27436193522&quot;,&quot;referenceData&quot;:{&quot;adCustomerId&quot;:&quot;2243373&quot;,&quot;rcvYn&quot;:&quot;N&quot;,&quot;prodTypeCd&quot;:&quot;M01007&quot;,&quot;imgStatusCd&quot;:&quot;I01003&quot;,&quot;prodStatusCd&quot;:&quot;M02001&quot;,&quot;fullMallCatNm&quot;:null,&quot;dvlryFeeCont&quot;:null,&quot;hasDvlryFeeCont&quot;:&quot;0&quot;,&quot;makerNo&quot;:&quot;259842&quot;,&quot;brandNo&quot;:&quot;1269&quot;,&quot;productName&quot;:&quot;[0xec][0x8a][0xa4][0xed][0x8a][0xb8][0xeb][0x9d][0xbc][0xec][0x9d][0xb4][0xed][0x81][0xac] [0xeb][0x9d][0xbc][0xec][0x9a][0xb4][0xeb][0x93][0x9c][0xeb][0xb3][0xbc] DB7853&quot;,&quot;productTitle&quot;:&quot;[0xeb][0x82][0x98][0xec][0x9d][0xb4][0xed][0x82][0xa4] [0xec][0x8a][0xa4][0xed][0x8a][0xb8][0xeb][0x9d][0xbc][0xec][0x9d][0xb4][0xed][0x81][0xac] [0xeb][0x9d][0xbc][0xec][0x9a][0xb4][0xeb][0x93][0x9c][0xeb][0xb3][0xbc] DB7853&quot;,&quot;lowPrice&quot;:&quot;23670&quot;,&quot;mobilePrice&quot;:&quot;23670&quot;,&quot;overseaTp&quot;:&quot;0&quot;,&quot;prodTp&quot;:&quot;1&quot;,&quot;saleTp&quot;:&quot;0&quot;,&quot;purchaseCnt&quot;:&quot;0&quot;,&quot;mallProductId&quot;:null,&quot;mallProductUrl&quot;:null,&quot;mallProdMblUrl&quot;:null,&quot;keepCnt&quot;:null,&quot;_7daysSaleSum&quot;:&quot;0&quot;,&quot;reviewCount&quot;:&quot;1&quot;,&quot;scoreInfo&quot;:&quot;5.0&quot;,&quot;smryReview&quot;:null,&quot;attrVals&quot;:&quot;[0xec][0x9a][0xa9][0xeb][0x8f][0x84]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P&quot;,&quot;charVals&quot;:&quot;[0xea][0xb3][0xb5][0xec][0x8b][0x9d][0xea][0xb5][0xac]|[0xed][0x8f][0xb4][0xeb][0xa6][0xac][0xec][0x9a][0xb0][0xeb][0xa0][0x88][0xed][0x83][0x84]|[0xea][0xb3][0xa0][0xeb][0xac][0xb4]|[0xed][0x8f][0xb4][0xeb][0xa6][0xac][0xec][0x97][0x90][0xec][0x8a][0xa4][0xed][0x85][0x8c][0xeb][0xa5][0xb4]|[0xec][0x97][0x90][0xed][0x8b][0xb8][0xeb][0xa0][0x8c] [0xeb][0xb9][0x84][0xeb][0x8b][0x90] [0xec][0x95][0x84][0xec][0x84][0xb8][0xed][0x85][0x8c][0xec][0x9d][0xb4][0xed][0x8a][0xb8]&quot;,&quot;mallId&quot;:null,&quot;mallNo&quot;:null,&quot;modelImgUrlList&quot;:null,&quot;mo&quot;
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; HTTP/1.1 200 OK
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Expires: Thu, 01 Jan 1970 00:00:00 GMT
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Connection: close
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Cache-Control: no-store, must-revalidate
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Keep-Alive: timeout=60
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; X-Transaction-ID: BPTPN2NIHHJGV
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Content-Type: application/json;charset=UTF-8
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Date: Wed, 09 Jun 2021 01:41:07 GMT
+10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Strict-Transport-Security: max-age=15768000
+10:41:08.037 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;delCreTpCd&quot;:&quot;M98001&quot;,&quot;imageUrl&quot;:&quot;https://shopping-phinf.pstatic.net/main_2743619/27436193522.20210604093740.jpg&quot;,&quot;parentId&quot;:&quot;27436193522&quot;,&quot;openDate&quot;:&quot;20210604092949&quot;,&quot;maker&quot;:&quot;[0xeb][0x82][0x98][0xec][0x9d][0xb4][0xed][0x82][0xa4]&quot;,&quot;brand&quot;:&quot;[0xeb][0x82][0x98][0xec][0x9d][0xb4][0xed][0x82][0xa4]&quot;,&quot;mallCount&quot;:&quot;614&quot;,&quot;mpTp&quot;:&quot;0&quot;,&quot;series&quot;:null,&quot;seriesNo&quot;:&quot;0&quot;,&quot;prchCondInfo&quot;:&quot;||||||&quot;,&quot;id&quot;:&quot;27436193522&quot;,&quot;catId&quot;:&quot;50001550&quot;,&quot;svcYn&quot;:&quot;Y&quot;,&quot;displayNx&quot;:&quot;1&quot;,&quot;categoryLevel&quot;:&quot;3&quot;,&quot;category0Id&quot;:null,&quot;category1Id&quot;:&quot;50000007&quot;,&quot;category2Id&quot;:&quot;50000036&quot;,&quot;category3Id&quot;:&quot;50001550&quot;,&quot;category4Id&quot;:null,&quot;category0Name&quot;:null,&quot;category1Name&quot;:&quot;[0xec][0x8a][0xa4][0xed][0x8f][0xac][0xec][0xb8][0xa0]/[0xeb][0xa0][0x88][0xec][0xa0][0x80]&quot;,&quot;category2Name&quot;:&quot;[0xec][0xb6][0x95][0xea][0xb5][0xac]&quot;,&quot;category3Name&quot;:&quot;[0xec][0xb6][0x95][0xea][0xb5][0xac][0xea][0xb3][0xb5]&quot;,&quot;category4Name&quot;:null,&quot;referenceKey&quot;:&quot;27436193522&quot;,&quot;APPLY_TM&quot;:&quot;1623201143509&quot;,&quot;DEL_FLAG&quot;:0},&quot;delFlag&quot;:false,&quot;regTm&quot;:&quot;2021-06-08T01:16:12.000Z&quot;,&quot;editTm&quot;:&quot;2021-06-08T01:56:06.000Z&quot;,&quot;status&quot;:&quot;PAUSED&quot;,&quot;statusReason&quot;:&quot;AD_UNDER_REVIEW&quot;,&quot;nccQi&quot;:{&quot;qiGrade&quot;:4}}&quot;
+10:41:08.053 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;end of stream&quot;
+10:41:08.053 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+10:41:08.053 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+10:41:08.053 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}-&gt;https://api.naver.com:443][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+10:41:08.059 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Cancelling request execution
+10:41:08.059 [Test worker] DEBUG util.ResponseUtil - 요청 성공
+nad-a001-02-000000137500566,CATALOG_AD
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at 2021. 6. 9 오전 10:41:08</p>
+</div>
+</div>
+</body>
+</html>

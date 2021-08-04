@@ -1,0 +1,8 @@
+operation/AdKeywordManagementTest.java
+ operation.AdKeywordManagementTest
+operation/CampaignManagementTest.java
+ operation.CampaignManagementTest
+operation/AdgroupManagementTest.java
+ operation.AdgroupManagementTest
+operation/AdManagementTest.java
+ operation.AdManagementTest

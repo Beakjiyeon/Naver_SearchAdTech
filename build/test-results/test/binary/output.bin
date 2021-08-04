@@ -1,0 +1,69 @@
+S10:41:07.235 [Test worker] DEBUG util.AppSetting - Ïú†Ï†Ä Ïù∏Ï¶ù Ï†ïÎ≥¥ Ï¥àÍ∏∞Ìôî
+s10:41:07.790 [Test worker] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: default
+w10:41:07.790 [Test worker] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+Â10:41:07.790 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.naver.com:443][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+Î10:41:07.805 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}->https://api.naver.com:443][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+Ñ10:41:07.805 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}->https://api.naver.com:443
+ê10:41:07.821 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to api.naver.com/210.89.172.27:443
+ü10:41:07.821 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to api.naver.com/210.89.172.27:443 with timeout 2000
+u10:41:07.852 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2]
+û10:41:07.852 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+k10:41:07.852 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+s10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+v10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+ò10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+∞10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=*.api.naver.com, O=NAVER Corp., L=Seongnam-si, ST=Gyeonggi-do, C=KR
+í10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.api.naver.com, api.naver.com]
+Æ10:41:07.959 [Test worker] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=GeoTrust RSA CA 2018, OU=www.digicert.com, O=DigiCert Inc, C=US
+°10:41:07.959 [Test worker] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 10.184.79.162:62058<->210.89.172.27:443
+ç10:41:07.959 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 2000
+ñ10:41:07.959 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /ncc/ads/nad-a001-02-000000137500566 HTTP/1.1
+r10:41:07.959 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+q10:41:07.959 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+Å10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> GET /ncc/ads/nad-a001-02-000000137500566 HTTP/1.1
+j10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> X-Timestamp: 1623202867335
+•10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> X-API-KEY: 0100000000b2d3d0aeca17715016943fdf868637dafaa6fe9d14ef36df7c51f9183304d698
+c10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> X-Customer: 2248092
+â10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> X-Signature: FaGWJuBZV9zPF9Edkt/jwThVHsYTsfw96Uqe7yorpi8=
+o10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> user-agent: unirest-java/3.1.00
+e10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> accept-encoding: gzip
+c10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Host: api.naver.com
+f10:41:07.975 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 >> Connection: Keep-Alive
+à10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "GET /ncc/ads/nad-a001-02-000000137500566 HTTP/1.1[\r][\n]"
+q10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "X-Timestamp: 1623202867335[\r][\n]"
+¨10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "X-API-KEY: 0100000000b2d3d0aeca17715016943fdf868637dafaa6fe9d14ef36df7c51f9183304d698[\r][\n]"
+j10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "X-Customer: 2248092[\r][\n]"
+ê10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "X-Signature: FaGWJuBZV9zPF9Edkt/jwThVHsYTsfw96Uqe7yorpi8=[\r][\n]"
+v10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "user-agent: unirest-java/3.1.00[\r][\n]"
+l10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
+j10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Host: api.naver.com[\r][\n]"
+m10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+W10:41:07.975 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 >> "[\r][\n]"
+f10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+}10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+h10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Connection: close[\r][\n]"
+10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Cache-Control: no-store, must-revalidate[\r][\n]"
+m10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Keep-Alive: timeout=60[\r][\n]"
+v10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "X-Transaction-ID: BPTPN2NIHHJGV[\r][\n]"
+É10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+z10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Date: Wed, 09 Jun 2021 01:41:07 GMT[\r][\n]"
+Ç10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "Strict-Transport-Security: max-age=15768000[\r][\n]"
+W10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "[\r][\n]"
+Ì10:41:08.021 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "{"nccAdId":"nad-a001-02-000000137500566","nccAdgroupId":"grp-a001-02-000000021722250","customerId":2248092,"inspectStatus":"UNDER_REVIEW","type":"CATALOG_AD","ad":{"catalogType":"MAKER"},"adAttr":{"bidAmt":90,"useGroupBidAmt":false},"userLock":false,"enable":true,"referenceKey":"27436193522","referenceData":{"adCustomerId":"2243373","rcvYn":"N","prodTypeCd":"M01007","imgStatusCd":"I01003","prodStatusCd":"M02001","fullMallCatNm":null,"dvlryFeeCont":null,"hasDvlryFeeCont":"0","makerNo":"259842","brandNo":"1269","productName":"[0xec][0x8a][0xa4][0xed][0x8a][0xb8][0xeb][0x9d][0xbc][0xec][0x9d][0xb4][0xed][0x81][0xac] [0xeb][0x9d][0xbc][0xec][0x9a][0xb4][0xeb][0x93][0x9c][0xeb][0xb3][0xbc] DB7853","productTitle":"[0xeb][0x82][0x98][0xec][0x9d][0xb4][0xed][0x82][0xa4] [0xec][0x8a][0xa4][0xed][0x8a][0xb8][0xeb][0x9d][0xbc][0xec][0x9d][0xb4][0xed][0x81][0xac] [0xeb][0x9d][0xbc][0xec][0x9a][0xb4][0xeb][0x93][0x9c][0xeb][0xb3][0xbc] DB7853","lowPrice":"23670","mobilePrice":"23670","overseaTp":"0","prodTp":"1","saleTp":"0","purchaseCnt":"0","mallProductId":null,"mallProductUrl":null,"mallProdMblUrl":null,"keepCnt":null,"_7daysSaleSum":"0","reviewCount":"1","scoreInfo":"5.0","smryReview":null,"attrVals":"[0xec][0x9a][0xa9][0xeb][0x8f][0x84]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P|[0xec][0x86][0x8c][0xec][0x9e][0xac]_P","charVals":"[0xea][0xb3][0xb5][0xec][0x8b][0x9d][0xea][0xb5][0xac]|[0xed][0x8f][0xb4][0xeb][0xa6][0xac][0xec][0x9a][0xb0][0xeb][0xa0][0x88][0xed][0x83][0x84]|[0xea][0xb3][0xa0][0xeb][0xac][0xb4]|[0xed][0x8f][0xb4][0xeb][0xa6][0xac][0xec][0x97][0x90][0xec][0x8a][0xa4][0xed][0x85][0x8c][0xeb][0xa5][0xb4]|[0xec][0x97][0x90][0xed][0x8b][0xb8][0xeb][0xa0][0x8c] [0xeb][0xb9][0x84][0xeb][0x8b][0x90] [0xec][0x95][0x84][0xec][0x84][0xb8][0xed][0x85][0x8c][0xec][0x9d][0xb4][0xed][0x8a][0xb8]","mallId":null,"mallNo":null,"modelImgUrlList":null,"mo"
+_10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << HTTP/1.1 200 OK
+v10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+a10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Connection: close
+x10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Cache-Control: no-store, must-revalidate
+f10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Keep-Alive: timeout=60
+o10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << X-Transaction-ID: BPTPN2NIHHJGV
+|10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Content-Type: application/json;charset=UTF-8
+s10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Date: Wed, 09 Jun 2021 01:41:07 GMT
+{10:41:08.021 [Test worker] DEBUG org.apache.http.headers - http-outgoing-0 << Strict-Transport-Security: max-age=15768000
+é	10:41:08.037 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "delCreTpCd":"M98001","imageUrl":"https://shopping-phinf.pstatic.net/main_2743619/27436193522.20210604093740.jpg","parentId":"27436193522","openDate":"20210604092949","maker":"[0xeb][0x82][0x98][0xec][0x9d][0xb4][0xed][0x82][0xa4]","brand":"[0xeb][0x82][0x98][0xec][0x9d][0xb4][0xed][0x82][0xa4]","mallCount":"614","mpTp":"0","series":null,"seriesNo":"0","prchCondInfo":"||||||","id":"27436193522","catId":"50001550","svcYn":"Y","displayNx":"1","categoryLevel":"3","category0Id":null,"category1Id":"50000007","category2Id":"50000036","category3Id":"50001550","category4Id":null,"category0Name":null,"category1Name":"[0xec][0x8a][0xa4][0xed][0x8f][0xac][0xec][0xb8][0xa0]/[0xeb][0xa0][0x88][0xec][0xa0][0x80]","category2Name":"[0xec][0xb6][0x95][0xea][0xb5][0xac]","category3Name":"[0xec][0xb6][0x95][0xea][0xb5][0xac][0xea][0xb3][0xb5]","category4Name":null,"referenceKey":"27436193522","APPLY_TM":"1623201143509","DEL_FLAG":0},"delFlag":false,"regTm":"2021-06-08T01:16:12.000Z","editTm":"2021-06-08T01:56:06.000Z","status":"PAUSED","statusReason":"AD_UNDER_REVIEW","nccQi":{"qiGrade":4}}"
+\10:41:08.053 [Test worker] DEBUG org.apache.http.wire - http-outgoing-0 << "end of stream"
+É10:41:08.053 [Test worker] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+g10:41:08.053 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection discarded
+Ì10:41:08.053 [Test worker] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}->https://api.naver.com:443][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+o10:41:08.059 [Test worker] DEBUG org.apache.http.impl.execchain.MainClientExec - Cancelling request execution
+D10:41:08.059 [Test worker] DEBUG util.ResponseUtil - ÏöîÏ≤≠ ÏÑ±Í≥µ
+(nad-a001-02-000000137500566,CATALOG_AD
