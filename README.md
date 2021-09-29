@@ -1,5 +1,5 @@
 # 네이버 검색광고 API 라이브러리
-
+## 디렉터리 정보
 ### build/docs/javadoc
 - JavaDoc
 
@@ -12,3 +12,5 @@
 
 ### src/test
 - 테스트 코드
+  
+  
